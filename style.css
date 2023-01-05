@@ -1,0 +1,108 @@
+
+.notifications .list {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.notifications .list .content {
+    display: flex;
+    align-items: center;
+    padding: 8px 6px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.underline {
+    width: 4px;
+    background-color: #027BBF;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.notifications .list .content i {
+    background-color: #3D8E45;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.notifications .list .content .text {
+    width: 100%;
+}
+
+.notifications .list .content .text h4{
+    margin: 0;
+    font-size: 17px;
+}
+
+.notifications .list .content .text .date {
+    margin: 0;
+    color: #444;
+    font-size: 14px;
+}
+
+.notifications .list .content .text .description {
+    margin: 0;
+    color: #555;
+}
+
+
+/* veiw-info */
+
+.notification-info .content {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+
+.notification-info .content .title {
+    color: #444;
+    font-size: 17px;
+}
+
+.notification-info .content .des {
+    font-size: 14px;
+}
+
+/* Big-notification */
+.big-notification .content {
+    display: flex;
+    align-items: center;
+    padding: 8px 6px;
+}
+
+.big-notification .content .text {
+    width: 100%;
+}
+
+.big-notification .content .text h4{
+    margin: 0;
+    font-size: 14px;
+}
+
+.big-notification .content .text .date {
+    margin: 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.big-notification .content .text .description {
+    margin: 0;
+    font-size: 13px;
+}
+
+.big-notification .content .logo {
+    width: 26px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
