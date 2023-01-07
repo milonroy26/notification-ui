@@ -1,4 +1,5 @@
 
+
 .notifications .list {
     list-style: none;
     margin-bottom: 10px;
@@ -9,7 +10,12 @@
     align-items: center;
     padding: 8px 6px;
     border-radius: 5px;
+    gap: 30px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.notifications .list .content.active {
+    box-shadow: none;
+    opacity: 0.8;
 }
 
 .underline {
@@ -17,6 +23,10 @@
     background-color: #027BBF;
     height: 40px;
     border-radius: 5px;
+}
+
+.underline.acitve {
+    display: none;
 }
 
 
@@ -86,6 +96,10 @@
     font-size: 14px;
 }
 
+.big-notification .content .text h4 i {
+    color: #3D8E45;
+}
+
 .big-notification .content .text .date {
     margin: 0;
     font-size: 12px;
@@ -104,5 +118,14 @@
     align-items: center;
 }
 
+.big-notification .card .image {
+    width: 100%;
+    height: 280px;
+}
+
+.big-notification .card .image img {
+    width: 100%;
+    height: 100%;
+}
 
 
